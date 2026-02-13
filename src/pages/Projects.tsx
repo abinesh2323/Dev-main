@@ -115,7 +115,7 @@ const Projects = () => {
 	return (
 		<div className="min-h-screen pt-20 px-4 max-w-6xl mx-auto">
 			<ScrollAnimation>
-				<h2 className="text-4xl font-bold mb-12 gradient-text">Featured Projects</h2>
+				<h2 className="text-4xl font-bold mb-12 gradient-text">Featured Projects - 12</h2>
 			</ScrollAnimation>
 
 			<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
