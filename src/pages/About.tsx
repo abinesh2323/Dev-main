@@ -8,8 +8,8 @@ const About = () => {
 	const achievements = [
 		{
 			icon: <Code2 className="w-6 h-6" />,
-			title: "4+ Projects",
-			description: "Completed full-stack web applications"
+			title: "10+ Projects",
+			description: "Completed full-stack Production ready applications"
 		},
 		{
 			icon: <Briefcase className="w-6 h-6" />,
