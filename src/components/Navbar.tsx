@@ -14,12 +14,14 @@ const Navbar = () => {
 	const navLinks = [
 		{ path: '/', label: 'Home' },
 		{ path: '/about', label: 'About' },
-		{ path: '/education', label: 'Education' },
-		{ path: '/experience', label: 'Experience' },
+		{ path: '/projects', label: 'Projects' },
 		{ path: '/skills', label: 'Skills' },
 		{ path: '/projects', label: 'Projects' },
 		{ path: '/certificates', label: 'Certificates' },
+		{ path: '/experience', label: 'Experience' },
+		{ path: '/education', label: 'Education' },
 		{ path: '/contact', label: 'Contact' }
+
 	];
 
 	return (
