@@ -53,7 +53,7 @@ const Home = () => {
 					Abinesh Kalyanasundaram
 				</motion.h1>
 				<motion.h1
-					className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
+					className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-5 relative tracking-tighter"
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
