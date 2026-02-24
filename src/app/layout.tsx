@@ -104,7 +104,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Abinesh Kalyanasundaram | Full Stack Developer Chennai',
     description:
-      'Full Stack Developer & Cloud Engineer based in Chennai, India. React, Node.js, AWS, AI Integration. Available for hire.',
+      'Full Stack Developer & Cloud Engineer based in Chennai, India. React, Node.js, AWS, n8n Automation, AI Integration. Available for hire.',
     creator: '@abinesh_dev',
     images: ['https://abinesh-one.vercel.app/og-image.png'],
   },

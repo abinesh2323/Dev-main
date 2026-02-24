@@ -15,13 +15,13 @@ const searchData = [
 		title: 'About',
 		description: 'Learn more about me and my background',
 		path: '/about',
-		keywords: ['about', 'background', 'education', 'bio', 'profile', 'cv', 'resume', 'Abinesh', 'chatterjee', 'full stack developer', 'software engineer', 'web developer']
+		keywords: ['about', 'background', 'education', 'bio', 'profile', 'cv', 'resume', 'Abinesh', 'full stack developer', 'software engineer', 'web developer']
 	},
 	{
 		title: 'Education',
 		description: 'View my educational background',
 		path: '/education',
-		keywords: ['education', 'university', 'college', 'degree', 'school', 'board', 'computer science', 'engineering', 'b.tech', 'bengal college']
+		keywords: ['education', 'university', 'college', 'degree', 'school', 'board', 'computer science', 'engineering', 'b.tech', 'sairam college']
 	},
 	{
 		title: 'Experience',
