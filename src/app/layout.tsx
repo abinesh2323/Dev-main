@@ -27,6 +27,7 @@ export const metadata: Metadata = {
 
     // Role + Location
     'Full Stack Developer Chennai',
+    'Best Full Stack Developer Chennai',
     'Full Stack Developer Bengaluru',
     'Full Stack Developer India',
     'Automation Developer Chennai',
