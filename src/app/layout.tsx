@@ -17,7 +17,7 @@ export const metadata: Metadata = {
   title:
     'Abinesh Kalyanasundaram | Full Stack Developer Chennai | React • AWS • AI',
   description:
-    'Abinesh Kalyanasundaram - Full Stack Developer & Cloud Engineer based in Chennai, India. Expert in React, Node.js, Python, AWS, Docker, AI Integration. Available for hire in Chennai, Bengaluru, Pan-India & Remote. Built AI platforms handling 1000+ daily requests.',
+    'Abinesh Kalyanasundaram - Full Stack Developer , Cloud Engineer, AI Engineer and Automation Engineer based in Chennai, India. Expert in React, Node.js, Python, AWS, Docker, AI Integration, n8n Automation. Available for hire in Chennai, Bengaluru, Pan-India & Remote. Built AI platforms handling 1000+ daily requests.',
 
   keywords: [
     // Name variations
@@ -42,6 +42,11 @@ export const metadata: Metadata = {
     'DevOps Engineer Bengaluru',
     'Docker Developer India',
 
+    //Automation
+    'n8n Automation Developer',
+    'Workflow Automation Engineer',
+    'Automation Specialist Chennai',
+    
     // Tech stack
     'React Developer',
     'Node.js Developer',
