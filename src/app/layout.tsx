@@ -157,6 +157,30 @@ export default function RootLayout({
   return (
     <html lang="en" className={inter.className}>
       <head>
+          <meta charSet="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="/favicon.ico" />
+  <meta name="theme-color" content="#000000" />
+
+  <title>Abinesh Kalyanasundaram | Full Stack Developer & Cloud Engineer</title>
+  <meta name="title" content="Abinesh Kalyanasundaram | Full Stack Developer & Cloud Engineer" />
+  <meta name="description" content="Portfolio of Abinesh Kalyanasundaram, a Full Stack Developer specializing in React, AWS, AI, and DevOps. Explore my projects in automation and cloud engineering." />
+  <meta name="keywords" content="Abinesh Kalyanasundaram, Full Stack Developer, React Developer Chennai, AWS Engineer, Cloud Automation, DevOps Portfolio, Kali Linux, AI Developer" />
+  <meta name="author" content="Abinesh Kalyanasundaram" />
+
+  <link rel="canonical" href="https://abinesh-one.vercel.app/" />
+
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://abinesh-one.vercel.app/" />
+  <meta property="og:title" content="Abinesh Kalyanasundaram | Full Stack Developer Portfolio" />
+  <meta property="og:description" content="I design & code for web. Specializing in Software Development, DevOps, and Cloud Engineering." />
+  <meta property="og:image" content="https://abinesh-one.vercel.app/og-image.jpg" /> <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:url" content="https://abinesh-one.vercel.app/" />
+  <meta property="twitter:title" content="Abinesh Kalyanasundaram | Full Stack Developer" />
+  <meta property="twitter:description" content="Explore my projects in React, AWS, and AI. Full Stack Developer based in Chennai." />
+  <meta property="twitter:image" content="https://abinesh-one.vercel.app/og-image.jpg" />
+
+  <meta name="robots" content="index, follow" />
         {/* Icons */}
         <link rel="shortcut icon" href="/nextjs.png" type="image/x-icon" />
         <link rel="apple-touch-icon" href="/nextjs.png" />
