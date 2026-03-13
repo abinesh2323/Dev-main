@@ -45,7 +45,7 @@ const About = () => {
 					<div className="aspect-square overflow-hidden rounded-2xl">
 						<img
 							src="/profile/profile.png"
-							alt="Abinesh Kalyanasundaram"
+							alt="Profile photo of Abinesh Kalyanasundaram, Full Stack Developer and Cloud Engineer"
 							className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
 						/>
 					</div>

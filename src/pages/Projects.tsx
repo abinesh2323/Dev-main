@@ -7,7 +7,7 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 const projects = [	
 		{
 		title: 'ABINHire (SaaS Product) - AI Recruiter with realtime Voice Agent   ',
-		description: 'I built ABINHire 🤖, an AI Recruiter(SaaS) that locks your screen and ends the interview if you stay silent for 6 seconds. 🤯🤖Screening 1000 of Candiates within a time of same 15min that takes to manually screen just one',
+		description: 'Problem: Traditional recruitment screening is time-consuming and inefficient, often taking 15 minutes per candidate manually. Solution: Built ABINHire, an AI-powered SaaS platform that automates candidate screening with real-time voice agents, screen locking for silence detection, and advanced AI evaluation. Tech stack includes JavaScript, TypeScript, Google Cloud, Node.js, Express.js, Supabase, SQL, Vapi AI, DeepSeek, GPT-4, OpenRouter, and Paddle for transactions. Outcome: Successfully screens 1000+ candidates in the same time it takes to manually screen one, dramatically improving recruitment efficiency and scalability.',
 		image: '/projects_img/image12.png',
 		github: 'https://github.com/abinesh2323/AI-recruiter',
 		live: 'https://ai-recruiter-iota.vercel.app',
@@ -17,7 +17,7 @@ const projects = [
 
 	{
 		title: 'Planora - A SaaS Style team & task Management system ',
-		description: 'I designed, developed, and deployed Planora, a full-stack MERN SaaS application built to solve real team collaboration and workflow challenges. This is not a tutorial clone.Planora is a production-ready product, built with scalability, security, and ownership in mind.',
+		description: 'Problem: Teams struggle with inefficient task management and collaboration tools that lack scalability and real-time features. Solution: Developed Planora, a full-stack MERN SaaS application with team collaboration, workflow management, and real-time updates. Built with JavaScript, TypeScript, Google Cloud, Node.js, Express.js, MongoDB Atlas, OAuth authentication, and cloud-native architecture. Outcome: Production-ready SaaS product that solves real team collaboration challenges with enterprise-level scalability, security, and performance.',
 		image: '/projects_img/image11.png',
 		github: 'https://github.com/abinesh2323/Advanced-MERN-B2B-Teams-Project-Management-Saas-main',
 		live: '/projects/notfound.tsx',
@@ -27,7 +27,7 @@ const projects = [
 
 	{
 		title: 'SHIPDEYE - A Hacking tool to access target System info, Location info, Camera & Mic Access Remotely',
-		description: 'I’ve created a Python script that can be used acrossTermux, Kali, Linux, Windows, Unix, and macOS.',
+		description: 'Problem: Cybersecurity professionals and ethical hackers need versatile tools for system reconnaissance and penetration testing across multiple platforms. Solution: Created SHIPDEYE, a cross-platform Python script for remote system information gathering, location tracking, and camera/microphone access. Compatible with Termux, Kali Linux, Windows, macOS, Linux, and Unix. Built with Python for maximum portability and stealth. Outcome: Powerful ethical hacking tool that demonstrates advanced cybersecurity skills and platform-agnostic development capabilities.',
 		image: '/projects_img/image10.png',
 		github: 'https://github.com/abinesh2323/spyde',
 		tags: ['Python','Location','Camera','Termux', 'Kali', 'Linux', 'Windows', 'Unix', 'macOS']
@@ -35,7 +35,7 @@ const projects = [
 	},
 		{
 		title: 'AI-Powered Personal Finance Platform ',
-		description: '💵💰 ₹ Built a production-ready personal finance platform that automates expense tracking using Generative AI.Real-time dashboard: balance, income, expenses, savings %, Analytical reports , montly report will send to User Mail, AI-based bill scanning (OCR + expense categorization using Gemini AI)',
+		description: 'Problem: Manual expense tracking is tedious and error-prone, leading to poor financial management. Solution: Built a production-ready personal finance platform with AI-driven expense categorization using OCR and Gemini AI, real-time dashboards, automated reporting, and email notifications. Tech stack includes JavaScript, TypeScript, Google Cloud, Node.js, Express.js, MongoDB Atlas, Resend for emails, Tailwind CSS, Inngest for workflows, Cloudinary for file handling, and end-to-end encryption. Outcome: Comprehensive financial management tool with AI automation, real-time insights, and secure cloud infrastructure handling production workloads.',
 		image: '/projects_img/image9.png',
 		github: 'https://github.com/abinesh2323/financeapp',
 		live: 'https://financeapp-five-fawn.vercel.app',
@@ -124,7 +124,7 @@ const Projects = () => {
 						<div className="bg-gray-800/50 rounded-lg overflow-hidden backdrop-blur-sm">
 							<img
 								src={project.image}
-								alt={project.title}
+								alt={`Screenshot of ${project.title} - ${project.description.substring(0, 50)}...`}
 								className="w-full h-48 object-cover"
 							/>
 							<div className="p-6">

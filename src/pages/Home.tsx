@@ -52,14 +52,14 @@ const Home = () => {
 				>
 					Abinesh Kalyanasundaram
 				</motion.h1>
-				<motion.h1
+				<motion.h2
 					className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
 					initial={{ opacity: 0, y: 20 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.8 }}
 				>
 					I design & code for web
-				</motion.h1>
+				</motion.h2>
 
 				<motion.p
 					className="text-lg sm:text-xl md:text-2xl text-gray-400 mb-4 sm:mb-5 max-w-2xl mx-auto px-2 sm:px-4"

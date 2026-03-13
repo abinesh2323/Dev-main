@@ -15,9 +15,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title:
-    'Abinesh Kalyanasundaram | Full Stack Developer Chennai | React • AWS • AI',
+    'Abinesh Kalyanasundaram | Full Stack Developer & Cloud Engineer Portfolio',
   description:
-    'Abinesh Kalyanasundaram - Full Stack Developer , Cloud Engineer, AI Engineer and Automation Engineer based in Chennai, India. Expert in React, Node.js, Python, AWS, Docker, AI Integration, n8n Automation. Available for hire in Chennai, Bengaluru, Pan-India & Remote. Built AI platforms handling 1000+ daily requests.',
+    'Portfolio of Abinesh Kalyanasundaram, a Full Stack Developer and Cloud Engineer specializing in React, AWS, and AI. Explore my projects, skills, and certifications.',
 
   keywords: [
     // Name variations
@@ -90,16 +90,16 @@ export const metadata: Metadata = {
     alternateLocale: ['en_IN', 'en_GB'],
     url: 'https://abinesh-one.vercel.app/',
     title:
-      'Abinesh Kalyanasundaram | Full Stack Developer Chennai | React • AWS • AI',
+      'Abinesh Kalyanasundaram | Full Stack Developer & Cloud Engineer Portfolio',
     description:
-      'Full Stack Developer & Cloud Engineer based in Chennai, India. Expert in React, Node.js, AWS, Docker,n8n Automation, AI Integration. Built AI platforms with 1000+ daily requests.',
+      'Portfolio of Abinesh Kalyanasundaram, a Full Stack Developer and Cloud Engineer specializing in React, AWS, and AI. Explore my projects, skills, and certifications.',
     siteName: 'Abinesh Kalyanasundaram Portfolio',
     images: [
       {
         url: 'https://abinesh-one.vercel.app/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Abinesh Kalyanasundaram - Full Stack Developer Chennai',
+        alt: 'Abinesh Kalyanasundaram - Full Stack Developer Portfolio',
         type: 'image/png',
       },
     ],
@@ -108,9 +108,9 @@ export const metadata: Metadata = {
   // Twitter Card
   twitter: {
     card: 'summary_large_image',
-    title: 'Abinesh Kalyanasundaram | Full Stack Developer Chennai',
+    title: 'Abinesh Kalyanasundaram | Full Stack Developer & Cloud Engineer Portfolio',
     description:
-      'Full Stack Developer & Cloud Engineer based in Chennai, India. React, Node.js, AWS, n8n Automation, AI Integration. Available for hire.',
+      'Portfolio of Abinesh Kalyanasundaram, a Full Stack Developer and Cloud Engineer specializing in React, AWS, and AI. Explore my projects, skills, and certifications.',
     creator: '@abinesh_dev',
     images: ['https://abinesh-one.vercel.app/og-image.png'],
   },
@@ -132,7 +132,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://abinesh-one.vercel.app'),
 
   alternates: {
-    canonical: '/',
+    canonical: 'https://abinesh-one.vercel.app/',
   },
 
   // Google Search Console (HTML file method)
