@@ -27,9 +27,10 @@ const About = () => {
 		"Web Development",
 		"UI/UX Design",
 		"Cloud Computing",
-		"DevOps",
-		"Open Source",
-		"Artificial Intelligence"
+		"DevOps & Automation",
+		"Artificial Intelligence",
+		"AI Workflow Design",
+		"Open Source"
 	];
 
 	return (
@@ -54,10 +55,10 @@ const About = () => {
 				<ScrollAnimation className="space-y-6">
 					<div className="space-y-4">
 						<p className="text-gray-300 leading-relaxed">
-							Hi! I’m a Full-Stack Developer with a B.Tech in Information Technology, driven by building applications that are production ready, scalable, and cloud native ,not just “it works on my machine” projects.
+							Hi! I’m a Full-Stack Developer and AI Engineer with a B.Tech in Information Technology, specializing in building production-ready applications that leverage AI and automation for scalability and efficiency.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
-							I work primarily with React on the frontend, API driven backends, and cloud platforms like AWS and Vercel. I’m comfortable containerizing apps with Docker, setting up CI/CD pipelines, and monitoring systems after deployment. I’ve built real time chat applications and SaaS style systems, focusing on performance, security, and smooth user experience.
+							I work primarily with React on the frontend, API-driven backends, and cloud platforms like AWS and Vercel. As an automation engineer, I've designed numerous n8n workflows and AI assistants that streamline business processes. I'm comfortable containerizing apps with Docker, setting up CI/CD pipelines, and integrating AI solutions for enhanced user experiences. I've built real-time chat applications, SaaS systems, and AI-powered platforms, focusing on performance, security, and intelligent automation.
 						</p>
 						<p className="text-gray-300 leading-relaxed">
 							I enjoy learning by building, breaking, fixing, and shipping. Whether it’s experimenting with DevOps workflows, improving system reliability, or collaborating with fast moving teams, I’m always looking to grow and deliver better software.

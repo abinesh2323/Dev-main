@@ -15,9 +15,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title:
-    'Abinesh Kalyanasundaram | Full Stack Developer & Cloud Engineer Portfolio',
+    'Abinesh Kalyanasundaram | Full Stack Developer, AI Engineer & Automation Specialist Portfolio',
   description:
-    'Portfolio of Abinesh Kalyanasundaram, a Full Stack Developer and Cloud Engineer specializing in React, AWS, and AI. Explore my projects, skills, and certifications.',
+    'Portfolio of Abinesh Kalyanasundaram, a Full Stack Developer, AI Engineer, and Automation Specialist specializing in React, AWS, AI workflows, and n8n automation. Explore my projects, skills, and certifications.',
 
   keywords: [
     // Name variations
@@ -46,6 +46,9 @@ export const metadata: Metadata = {
     'n8n Automation Developer',
     'Workflow Automation Engineer',
     'Automation Specialist Chennai',
+    'AI Workflow Designer',
+    'n8n Workflows',
+    'AI Assistants Developer',
     
     // Tech stack
     'React Developer',
@@ -59,6 +62,9 @@ export const metadata: Metadata = {
     // Specializations
     'AI Integration Developer',
     'LLM Developer India',
+    'AI Engineer Chennai',
+    'Machine Learning Developer',
+    'Generative AI Developer',
     'Blockchain Developer',
 
     // General
@@ -90,9 +96,9 @@ export const metadata: Metadata = {
     alternateLocale: ['en_IN', 'en_GB'],
     url: 'https://abinesh-one.vercel.app/',
     title:
-      'Abinesh Kalyanasundaram | Full Stack Developer & Cloud Engineer Portfolio',
+      'Abinesh Kalyanasundaram | Full Stack Developer, AI Engineer & Automation Specialist Portfolio',
     description:
-      'Portfolio of Abinesh Kalyanasundaram, a Full Stack Developer and Cloud Engineer specializing in React, AWS, and AI. Explore my projects, skills, and certifications.',
+      'Portfolio of Abinesh Kalyanasundaram, a Full Stack Developer, AI Engineer, and Automation Specialist specializing in React, AWS, AI workflows, and n8n automation. Explore my projects, skills, and certifications.',
     siteName: 'Abinesh Kalyanasundaram Portfolio',
     images: [
       {
@@ -108,9 +114,9 @@ export const metadata: Metadata = {
   // Twitter Card
   twitter: {
     card: 'summary_large_image',
-    title: 'Abinesh Kalyanasundaram | Full Stack Developer & Cloud Engineer Portfolio',
+    title: 'Abinesh Kalyanasundaram | Full Stack Developer, AI Engineer & Automation Specialist Portfolio',
     description:
-      'Portfolio of Abinesh Kalyanasundaram, a Full Stack Developer and Cloud Engineer specializing in React, AWS, and AI. Explore my projects, skills, and certifications.',
+      'Portfolio of Abinesh Kalyanasundaram, a Full Stack Developer, AI Engineer, and Automation Specialist specializing in React, AWS, AI workflows, and n8n automation. Explore my projects, skills, and certifications.',
     creator: '@abinesh_dev',
     images: ['https://abinesh-one.vercel.app/og-image.png'],
   },
@@ -132,7 +138,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://abinesh-one.vercel.app'),
 
   alternates: {
-    canonical: 'https://abinesh-one.vercel.app/',
+    canonical: '/',
   },
 
   // Google Search Console (HTML file method)

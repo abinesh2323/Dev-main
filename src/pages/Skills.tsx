@@ -85,15 +85,25 @@ const skills = [
 		]
 	},
 	{
-		category: 'Soft Skills',
+		category: 'AI & Machine Learning',
 		icon: <Brain className="w-6 h-6" />,
 		items: [
-			{ name: 'Teamwork', icon: <Users className="w-4 h-4" /> },
-			{ name: 'Troubleshooting', icon: <Wrench className="w-4 h-4" /> },
-			{ name: 'Progressive', icon: <Lightbulb className="w-4 h-4" /> },
-			{ name: 'Communication', icon: <MessageSquare className="w-4 h-4" /> }
+			{ name: 'Gemini AI', icon: <Brain className="w-4 h-4" /> },
+			{ name: 'OpenAI GPT', icon: <Brain className="w-4 h-4" /> },
+			{ name: 'LLMs', icon: <Brain className="w-4 h-4" /> },
+			{ name: 'AI Integration', icon: <Brain className="w-4 h-4" /> }
 		]
-	}
+	},
+	{
+		category: 'Automation & Workflow',
+		icon: <Wrench className="w-6 h-6" />,
+		items: [
+			{ name: 'n8n', icon: <Wrench className="w-4 h-4" /> },
+			{ name: 'Workflow Design', icon: <Wrench className="w-4 h-4" /> },
+			{ name: 'AI Assistants', icon: <Wrench className="w-4 h-4" /> },
+			{ name: 'Process Automation', icon: <Wrench className="w-4 h-4" /> }
+		]
+	},
 ];
 
 const Skills = () => {

@@ -108,7 +108,7 @@ const Experience = () => {
 									<div className="absolute inset-0 group-hover:scale-105 transition-transform duration-500">
 										<img
 											src={exp.image}
-											alt={`Logo of ${exp.company} - ${exp.role}`}
+											alt={exp.company}
 											className="w-full h-full object-cover"
 										/>
 										<div className="absolute inset-0 bg-gradient-to-r from-gray-800/80 to-transparent group-hover:scale-105 transition-transform duration-500" />
