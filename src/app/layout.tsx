@@ -108,7 +108,7 @@ export const metadata: Metadata = {
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
-    apple: '/apple-touch-icon.png', // replace nextjs.png with a proper 180×180 icon
+    apple: '/nextjs.png', // replace nextjs.png with a proper 180×180 icon
   },
 
   // Google Search Console verification
