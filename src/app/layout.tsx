@@ -106,8 +106,8 @@ export const metadata: Metadata = {
 
   // Icons — centralised here, not repeated in <head>
   icons: {
-    icon: '/favicon.ico',
-    shortcut: '/favicon.ico',
+    icon: '/nextjs.png',
+    shortcut: '/nextjs.png',
     apple: '/nextjs.png', // replace nextjs.png with a proper 180×180 icon
   },
 
