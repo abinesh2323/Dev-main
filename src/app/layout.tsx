@@ -157,6 +157,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en" className={inter.className}>
       <head>
+        <meta name="google-site-verification" content="evH87UOfBUGfNHClB05Pv-nV4sV-quxlH29oXq8gPMs" />
         {/* JSON-LD structured data — the only thing that belongs in <head> here */}
         <script
           type="application/ld+json"
