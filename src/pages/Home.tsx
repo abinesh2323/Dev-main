@@ -138,7 +138,7 @@ const Home = () => {
 							animate={{ opacity: 1 }}
 							transition={{ delay: 0.8 }}
 						>
-							<span className="text-base sm:text-lg font-semibold">{displayRepos}</span>
+							<span className="text-base sm:text-lg font-semibold">20</span>
 							<span className="text-xs sm:text-sm text-gray-400">GitHub Projects</span>
 						</motion.div>
 					</motion.a>
@@ -159,7 +159,7 @@ const Home = () => {
 							animate={{ opacity: 1 }}
 							transition={{ delay: 0.8 }}
 						>
-							<span className="text-base sm:text-lg font-semibold">500+</span>
+							<span className="text-base sm:text-lg font-semibold">2500+</span>
 							<span className="text-xs sm:text-sm text-gray-400">LinkedIn Followers</span>
 						</motion.div>
 					</motion.a>
