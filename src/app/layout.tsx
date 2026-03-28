@@ -6,7 +6,6 @@ import Footer from '@/components/Footer';
 import './globals.css';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
-import AudioPlayer from '@/components/AudioPlayer';
 
 const inter = Inter({
   subsets: ['latin'],
