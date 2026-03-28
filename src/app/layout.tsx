@@ -6,6 +6,7 @@ import Footer from '@/components/Footer';
 import './globals.css';
 import { SpeedInsights } from '@vercel/speed-insights/next';
 import { Analytics } from '@vercel/analytics/next';
+import AudioPlayer from '@/components/AudioPlayer';
 
 const inter = Inter({
   subsets: ['latin'],
@@ -131,8 +132,8 @@ const jsonLd = {
   image: 'https://abinesh-one.vercel.app/og-image.png',
   sameAs: [
     // Add your actual profile URLs below
-    'https://github.com/yourusername',
-    'https://linkedin.com/in/yourusername',
+    'https://github.com/abinesh2323',
+    'https://linkedin.com/in/abinesh-kalyanasundaram-369494322',
     'https://twitter.com/abinesh_dev',
   ],
   address: {
@@ -186,6 +187,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
         </div>
         <Analytics />
+         <AudioPlayer />
+        {children}
       </body>
     </html>
   );

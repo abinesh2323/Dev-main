@@ -7,7 +7,7 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 const projects = [	
 		{
 		title: 'ABINHire (SaaS Product) - AI Recruiter with realtime Voice Agent   ',
-		description: 'Problem: Traditional recruitment screening is time-consuming and inefficient, often taking 15 minutes per candidate manually. Solution: Built ABINHire, an AI-powered SaaS platform that automates candidate screening with real-time voice agents, screen locking for silence detection, and advanced AI evaluation. Tech stack includes JavaScript, TypeScript, Google Cloud, Node.js, Express.js, Supabase, SQL, Vapi AI, DeepSeek, GPT-4, OpenRouter, and Paddle for transactions. Outcome: Successfully screens 1000+ candidates in the same time it takes to manually screen one, dramatically improving recruitment efficiency and scalability.',
+		description: 'Built ABINHire, an AI-powered SaaS platform that automates candidate screening with real-time voice agents, screen locking for silence detection, and advanced AI evaluation. Tech stack includes JavaScript, TypeScript, Google Cloud, Node.js, Express.js, Supabase, SQL, Vapi AI, DeepSeek, GPT-4, OpenRouter, and Paddle for transactions. Outcome: Successfully screens 1000+ candidates in the same time it takes to manually screen one, dramatically improving recruitment efficiency and scalability.',
 		image: '/projects_img/image12.png',
 		github: 'https://github.com/abinesh2323/AI-recruiter',
 		live: 'https://ai-recruiter-iota.vercel.app',
@@ -17,7 +17,7 @@ const projects = [
 
 	{
 		title: 'Planora - A SaaS Style team & task Management system ',
-		description: 'Problem: Teams struggle with inefficient task management and collaboration tools that lack scalability and real-time features. Solution: Developed Planora, a full-stack MERN SaaS application with team collaboration, workflow management, and real-time updates. Built with JavaScript, TypeScript, Google Cloud, Node.js, Express.js, MongoDB Atlas, OAuth authentication, and cloud-native architecture. Outcome: Production-ready SaaS product that solves real team collaboration challenges with enterprise-level scalability, security, and performance.',
+		description: 'Developed Planora, a full-stack MERN SaaS application with team collaboration, workflow management, and real-time updates. Built with JavaScript, TypeScript, Google Cloud, Node.js, Express.js, MongoDB Atlas, OAuth authentication, and cloud-native architecture. Outcome: Production-ready SaaS product that solves real team collaboration challenges with enterprise-level scalability, security, and performance.',
 		image: '/projects_img/image11.png',
 		github: 'https://github.com/abinesh2323/Advanced-MERN-B2B-Teams-Project-Management-Saas-main',
 		live: '/projects/notfound.tsx',
