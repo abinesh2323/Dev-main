@@ -91,7 +91,7 @@ const skills = [
 			{ name: 'Gemini AI', icon: <Brain className="w-4 h-4" /> },
 			{ name: 'OpenAI GPT', icon: <Brain className="w-4 h-4" /> },
 			{ name: 'LLMs', icon: <Brain className="w-4 h-4" /> },
-			{ name: 'AI Integration', icon: <Brain className="w-4 h-4" /> }
+			{ name: 'AI Integration', icon: <Brain/> }
 		]
 	},
 	{
