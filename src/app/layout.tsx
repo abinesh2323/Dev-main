@@ -186,8 +186,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <Footer />
         </div>
         <Analytics />
-         <AudioPlayer />
-        {children}
       </body>
     </html>
   );
