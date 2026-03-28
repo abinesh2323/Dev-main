@@ -27,7 +27,7 @@ const projects = [
 
 	{
 		title: 'SHIPDEYE - A Hacking tool to access target System info, Location info, Camera & Mic Access Remotely',
-		description: 'Problem: Cybersecurity professionals and ethical hackers need versatile tools for system reconnaissance and penetration testing across multiple platforms. Solution: Created SHIPDEYE, a cross-platform Python script for remote system information gathering, location tracking, and camera/microphone access. Compatible with Termux, Kali Linux, Windows, macOS, Linux, and Unix. Built with Python for maximum portability and stealth. Outcome: Powerful ethical hacking tool that demonstrates advanced cybersecurity skills and platform-agnostic development capabilities.',
+		description: 'Created SHIPDEYE, a cross-platform Python script for remote system information gathering, location tracking, and camera/microphone access. Compatible with Termux, Kali Linux, Windows, macOS, Linux, and Unix. Built with Python for maximum portability and stealth. Outcome: Powerful ethical hacking tool that demonstrates advanced cybersecurity skills and platform-agnostic development capabilities.',
 		image: '/projects_img/image10.png',
 		github: 'https://github.com/abinesh2323/spyde',
 		tags: ['Python','Location','Camera','Termux', 'Kali', 'Linux', 'Windows', 'Unix', 'macOS']
@@ -35,7 +35,7 @@ const projects = [
 	},
 		{
 		title: 'AI-Powered Personal Finance Platform ',
-		description: 'Problem: Manual expense tracking is tedious and error-prone, leading to poor financial management. Solution: Built a production-ready personal finance platform with AI-driven expense categorization using OCR and Gemini AI, real-time dashboards, automated reporting, and email notifications. Tech stack includes JavaScript, TypeScript, Google Cloud, Node.js, Express.js, MongoDB Atlas, Resend for emails, Tailwind CSS, Inngest for workflows, Cloudinary for file handling, and end-to-end encryption. Outcome: Comprehensive financial management tool with AI automation, real-time insights, and secure cloud infrastructure handling production workloads.',
+		description: 'Built a production-ready personal finance platform with AI-driven expense categorization using OCR and Gemini AI, real-time dashboards, automated reporting, and email notifications. Tech stack includes JavaScript, TypeScript, Google Cloud, Node.js, Express.js, MongoDB Atlas, Resend for emails, Tailwind CSS, Inngest for workflows, Cloudinary for file handling, and end-to-end encryption. Outcome: Comprehensive financial management tool with AI automation, real-time insights, and secure cloud infrastructure handling production workloads.',
 		image: '/projects_img/image9.png',
 		github: 'https://github.com/abinesh2323/financeapp',
 		live: 'https://financeapp-five-fawn.vercel.app',
@@ -44,7 +44,7 @@ const projects = [
 	},
 			{
 		title: 'ABINEX-AI Agent',
-		description: ' an AI-powered SaaS Agent platform.Built as a tool-driven system. Designed deterministic agent behavior with confirmation-based tool chaining, Subcription with Pro & Premium Plans with Unlimited services.',
+		description: 'An AI-powered SaaS Agent platform.Built as a tool-driven system. Designed deterministic agent behavior with confirmation-based tool chaining, Subcription with Pro & Premium Plans with Unlimited services.',
 		image: '/projects_img/image8.png',
 		github: 'https://github.com/abinesh2323/Abinex_aiagent',
 		live: 'https://www.linkedin.com/posts/abinesh-kalyanasundaram-369494322_artificialintelligence-tech-innovation-activity-7422976971619602432-DdSd?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGVxgEB3eQPhkn-ILD9WjuOBbtNzl2G4X0',
