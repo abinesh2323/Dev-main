@@ -86,7 +86,7 @@ const skills = [
 	},
 	{
 		category: 'AI & Machine Learning',
-		icon: <Brain className="w-6 h-6" />,
+		icon: <Brain />,
 		items: [
 			{ name: 'Gemini AI', icon: <Brain className="w-4 h-4" /> },
 			{ name: 'OpenAI GPT', icon: <Brain className="w-4 h-4" /> },
