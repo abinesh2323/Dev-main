@@ -35,7 +35,7 @@ const projects = [
 	},
 		{
 		title: 'AI-Powered Personal Finance Platform ',
-		description: 'Built a production-ready personal finance platform with AI-driven expense categorization using OCR and Gemini AI, real-time dashboards, automated reporting, and email notifications. Tech stack includes JavaScript, TypeScript, Google Cloud, Node.js, Express.js, MongoDB Atlas, Resend for emails, Tailwind CSS, Inngest for workflows, Cloudinary for file handling, and end-to-end encryption. Outcome: Comprehensive financial management tool with AI automation, real-time insights, and secure cloud infrastructure handling production workloads.',
+		description: 'Built a production-ready personal finance platform with AI-driven expense categorization using OCR and Gemini AI, real-time dashboards, automated reporting, and email notifications. Tech stack includes JavaScript, TypeScript, Google Cloud, Node.js, Express.js, MongoDB Atlas, Resend for emails, Tailwind CSS, Inngest for workflows, Cloudinary for file handling, and end-to-end encryption.',
 		image: '/projects_img/image9.png',
 		github: 'https://github.com/abinesh2323/financeapp',
 		live: 'https://financeapp-five-fawn.vercel.app',
