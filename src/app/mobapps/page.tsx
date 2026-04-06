@@ -6,6 +6,6 @@ export const metadata: Metadata = {
 	description: 'View Abinesh Kalyanasundaram\'s portfolio of mobile apps including Abinyte and Locktask.',
 };
 
-export default function ProjectsPage() {
+export default function MobappsPage() {
 	return <Mobapp />;
 }
