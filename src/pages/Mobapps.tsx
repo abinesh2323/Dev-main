@@ -7,7 +7,7 @@ import { ScrollAnimation } from '@/components/ScrollAnimation';
 const mobapps = [	
     {
 		title: 'Abinyte - An Open-Source Offline Music Player for Local Libraries',
-		description: 'An open-source offline music player built for people tired of paying for what they already own. No streaming. No subscription. No internet required. Your local music library, beautifully organized and ready to play. Built with a full audio engine using React Native Track Player with queue management, shuffle, and persistent playback state.',
+		description: 'An open-source offline music player built for people tired of paying for what they already own. No streaming. No subscription. No internet required. Your local music library, beautifully organized and ready to play.',
 		image: '/projects_img/image14.png',
 		github: 'https://github.com/abinesh2323/Abinfy-muic-app',
 		live: 'https://www.linkedin.com/posts/abinesh-kalyanasundaram-369494322_reactnative-mobileappdevelopment-appdevelopment-activity-7444360371378843648-8NtT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGVxgEB3eQPhkn-ILD9WjuOBbtNzl2G4X0',
@@ -19,7 +19,7 @@ const mobapps = [
 		image: '/projects_img/image13.png',
 		github: 'https://github.com/abinesh2323/Locktask.git',
 		live: 'https://www.linkedin.com/posts/abinesh-kalyanasundaram-369494322_opentowork-reactnative-mobiledevelopment-activity-7443521906873462784-XGyO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGVxgEB3eQPhkn-ILD9WjuOBbtNzl2G4X0',
-		tags: ['React Native', 'TypeScript', 'Android SDK', 'ADB', 'Metro Bundler', 'Gradle', 'AES-256 Encryption', 'AsyncStorage']
+		tags: ['React Native', 'TypeScript', 'Android SDK', 'ADB', 'Metro Bundler', 'Gradle', 'Redux Toolkit', 'React Native Track Player']
 	},
 ];
 

@@ -15,12 +15,12 @@ const Navbar = () => {
 		{ path: '/', label: 'Home' },
 		{ path: '/about', label: 'About' },
 		{ path: '/projects', label: 'Projects' },
+		{ path: '/mobapps', label: 'Mobile App' },
 		{ path: '/skills', label: 'Skills' },
 		{ path: '/certificates', label: 'Certificates' },
 		{ path: '/experience', label: 'Experience' },
 		{ path: '/education', label: 'Education' },
 		{ path: '/contact', label: 'Contact' },
-		{ path: '/mobapps', label: 'Mobile App' },
 
 	];
 

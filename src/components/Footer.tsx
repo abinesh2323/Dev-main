@@ -17,13 +17,13 @@ const Footer = () => {
 		{ name: 'Certificates', path: '/certificates' },
 		{ name: 'Contact', path: '/contact' },
 		{ name: 'Kali Linux', path: '/kali' },
-		{ name: 'Mobile App', path: '/mobapps' },
+		{ name: 'MobileApp', path: '/mobapps' },
 	];
 
 	// Split links into columns of 3
-	const column1 = pageLinks.slice(0, 3);
-	const column2 = pageLinks.slice(3, 6);
-	const column3 = pageLinks.slice(6, 9);
+	const column1 = pageLinks.slice(0, 4);
+	const column2 = pageLinks.slice(4, 8);
+	const column3 = pageLinks.slice(8);
 
 	return (
 		<footer className="relative mt-24">
@@ -67,7 +67,7 @@ const Footer = () => {
 					{/* Links - First Column */}
 					<div className="space-y-4">
 						<h3 className="text-sm font-semibold text-white">Quick Links</h3>
-						<div className="grid grid-cols-3 gap-x-6 gap-y-3">
+						<div className="grid grid-cols-3 gap-x-6 gap-y-6">
 							{/* Column 1 */}
 							<div>
 								{column1.map(link => (
