@@ -20,7 +20,7 @@ const Navbar = () => {
 		{ path: '/experience', label: 'Experience' },
 		{ path: '/education', label: 'Education' },
 		{ path: '/contact', label: 'Contact' },
-		{ path: '/mobapp', label: 'Mobile App' },
+		{ path: '/mobapps', label: 'Mobile App' },
 
 	];
 

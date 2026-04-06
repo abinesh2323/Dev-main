@@ -23,7 +23,7 @@ const mobapps = [
 	},
 ];
 
-const Mobapp = () => {
+const Mobapps = () => {
 	return (
 		<div className="min-h-screen pt-20 px-4 max-w-6xl mx-auto">
 			<ScrollAnimation>
@@ -31,31 +31,31 @@ const Mobapp = () => {
 			</ScrollAnimation>
 
 			<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-				{mobapps.map((project, index) => (
-					<ScrollAnimation key={project.title}>
+				{mobapps.map((mobapps, index) => (
+					<ScrollAnimation key={mobapps.title}>
 						<div className="bg-gray-800/50 rounded-lg overflow-hidden backdrop-blur-sm">
 							<img
-								src={project.image}
-								alt={`Screenshot of ${project.title} - ${project.description.substring(0, 50)}...`}
+								src={mobapps.image}
+								alt={`Screenshot of ${mobapps.title} - ${mobapps.description.substring(0, 50)}...`}
 								className="w-full h-48 object-cover"
 							/>
 							<div className="p-6">
-								<h3 className="text-xl font-semibold mb-2">{project.title}</h3>
-								<p className="text-gray-400 mb-4">{project.description}</p>
+								<h3 className="text-xl font-semibold mb-2">{mobapps.title}</h3>
+								<p className="text-gray-400 mb-4">{mobapps.description}</p>
 								<div className="flex flex-wrap gap-2 mb-4">
-									{project.tags.map(tag => (
+									{mobapps.tags.map(tag => (
 										<span key={tag} className="px-2 py-1 text-sm bg-purple-500/20 rounded">
 											{tag}
 										</span>
 									))}
 								</div>
 								<div className="flex space-x-4">
-									<a href={project.github} target="_blank" rel="noopener noreferrer"
+									<a href={mobapps.github} target="_blank" rel="noopener noreferrer"
 										className="flex items-center space-x-1 text-gray-300 hover:text-white transition-colors">
 										<Github className="w-4 h-4" />
 										<span>Code</span>
 									</a>
-									<a href={project.live} target="_blank" rel="noopener noreferrer"
+									<a href={mobapps.live} target="_blank" rel="noopener noreferrer"
 										className="flex items-center space-x-1 text-gray-300 hover:text-white transition-colors">
 										<ExternalLink className="w-4 h-4" />
 										<span>Linkedin</span>
@@ -70,4 +70,4 @@ const Mobapp = () => {
 	);
 };
 
-export default Mobapp;
+export default Mobapps;

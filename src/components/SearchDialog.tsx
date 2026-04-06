@@ -56,7 +56,7 @@ const searchData = [
 	{
 		title: 'Mobile App',
 		description: 'View my portfolio of projects',
-		path: '/mobapp',
+		path: '/mobapps',
 		keywords: ['projects', 'portfolio', 'work', 'examples', 'github', 'code', 'open-source', 'web applications', 'full stack', 'mern stack', 'react', 'node']
 	},
 ];
