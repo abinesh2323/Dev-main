@@ -1,3 +1,4 @@
+import Mobapp from '@/pages/mobapp';
 import Projects from '@/pages/mobapp';
 import type { Metadata } from 'next';
 
@@ -7,5 +8,5 @@ export const metadata: Metadata = {
 };
 
 export default function ProjectsPage() {
-	return <Projects />;
+	return <Mobapp />;
 }
