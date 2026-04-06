@@ -22,6 +22,7 @@ const handleSubmit = async (e: React.FormEvent) => {
   try {
     const res = await fetch('https://script.google.com/macros/s/AKfycbxPM2UoGr54OeqrMBu57C1J6Q9If22kk9PWjYskf4T6yx0pU5NVgVO0scnM6DDKxcs4/exec', {
       method: 'POST',
+	   mode: 'no-cors',
       body: JSON.stringify(formData),
     });
 
