@@ -52,7 +52,7 @@ const searchData = [
 		description: 'Get in touch with me',
 		path: '/contact',
 		keywords: ['contact', 'email', 'message', 'connect', 'hire', 'freelance', 'work', 'collaboration', 'job', 'opportunity']
-	}
+	},
 	{
 		title: 'Mobile App',
 		description: 'View my portfolio of projects',
