@@ -1,4 +1,4 @@
-import Mobapp from '@/pages/mobapp';
+import Mobapp from '@/pages/Mobapp';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
