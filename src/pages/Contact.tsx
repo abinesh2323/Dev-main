@@ -25,14 +25,16 @@ const handleSubmit = async (e: React.FormEvent) => {
 	   mode: 'no-cors',
       body: JSON.stringify(formData),
     });
-
-    if (res.ok) {
-      setSubmitStatus('success');
-      setFormData({ name: '', email: '', subject: '', message: '' });
-    } else {
-      setSubmitStatus('error');
-    }
-  } catch (error) {
+	    setSubmitStatus('success');
+    setFormData({ name: '', email: '', subject: '', message: '' });
+    ///if (res.ok) {
+     // setSubmitStatus('success');
+    //  setFormData({ name: '', email: '', subject: '', message: '' });
+   // } else {
+   //   setSubmitStatus('error');
+   // }
+}
+   catch (error) {
     setSubmitStatus('error');
   }
 
