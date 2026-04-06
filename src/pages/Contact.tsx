@@ -15,15 +15,28 @@ const Contact = () => {
 	const [isSubmitting, setIsSubmitting] = useState(false);
 	const [submitStatus, setSubmitStatus] = useState<'idle' | 'success' | 'error'>('idle');
 
-	const handleSubmit = async (e: React.FormEvent) => {
-		e.preventDefault();
-		setIsSubmitting(true);
+const handleSubmit = async (e: React.FormEvent) => {
+  e.preventDefault();
+  setIsSubmitting(true);
 
-		// Simulate form submission
-		await new Promise(resolve => setTimeout(resolve, 1000));
-		setSubmitStatus('success');
-		setIsSubmitting(false);
-	};
+  try {
+    const res = await fetch('https://script.google.com/macros/s/AKfycbxPM2UoGr54OeqrMBu57C1J6Q9If22kk9PWjYskf4T6yx0pU5NVgVO0scnM6DDKxcs4/exec', {
+      method: 'POST',
+      body: JSON.stringify(formData),
+    });
+
+    if (res.ok) {
+      setSubmitStatus('success');
+      setFormData({ name: '', email: '', subject: '', message: '' });
+    } else {
+      setSubmitStatus('error');
+    }
+  } catch (error) {
+    setSubmitStatus('error');
+  }
+
+  setIsSubmitting(false);
+};
 
 	const contactInfo = [
 		{
