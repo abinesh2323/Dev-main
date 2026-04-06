@@ -10,5 +10,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: 'https://abinesh-one.vercel.app/experience', lastModified: new Date() },
     { url: 'https://abinesh-one.vercel.app/certificates', lastModified: new Date() },
     { url: 'https://abinesh-one.vercel.app/education', lastModified: new Date() },
+    { url: 'https://abinesh-one.vercel.app/mobapp', lastModified: new Date() },
   ]
 }
