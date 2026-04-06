@@ -4,28 +4,26 @@ import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
 import { ScrollAnimation } from '@/components/ScrollAnimation';
 
-const mobapp= [	
-    	{
+const mobapps = [	
+    {
 		title: 'Abinyte - An Open-Source Offline Music Player for Local Libraries',
-		description: 'An open-source offline music player built for people tired of paying for what they already own. No streaming. No subscription. No internet required. Your local music library, beautifully organized and ready to play. Built with a full audio engine using React Native Track Player with queue management, shuffle, and persistent playback state.  ',
+		description: 'An open-source offline music player built for people tired of paying for what they already own. No streaming. No subscription. No internet required. Your local music library, beautifully organized and ready to play. Built with a full audio engine using React Native Track Player with queue management, shuffle, and persistent playback state.',
 		image: '/projects_img/image14.png',
 		github: 'https://github.com/abinesh2323/Abinfy-muic-app',
 		live: 'https://www.linkedin.com/posts/abinesh-kalyanasundaram-369494322_reactnative-mobileappdevelopment-appdevelopment-activity-7444360371378843648-8NtT?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGVxgEB3eQPhkn-ILD9WjuOBbtNzl2G4X0',
 		tags: ['React Native', 'TypeScript', 'Android SDK', 'ADB', 'Metro Bundler', 'Gradle', 'AES-256 Encryption', 'AsyncStorage']
-
 	},
 	{
 		title: 'Locktask - A Privacy-First Task Manager with Dumb Mind thoughts',
-		description: 'A privacy-first task manager built in React Native with AES-256 on-device encryption. No cloud. No backend. No one can read your tasks but you. Not even the developer. Built with React Native, TypeScript, AES-256 encryption, and local storage. Outcome: A secure, user-friendly task manager that keeps all data on the device, ensuring maximum privacy and peace of mind for users.',
+		description: 'A privacy-first task manager built in React Native with AES-256 on-device encryption. No cloud. No backend. No one can read your tasks but you. Not even the developer.',
 		image: '/projects_img/image13.png',
 		github: 'https://github.com/abinesh2323/Locktask.git',
 		live: 'https://www.linkedin.com/posts/abinesh-kalyanasundaram-369494322_opentowork-reactnative-mobiledevelopment-activity-7443521906873462784-XGyO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGVxgEB3eQPhkn-ILD9WjuOBbtNzl2G4X0',
 		tags: ['React Native', 'TypeScript', 'Android SDK', 'ADB', 'Metro Bundler', 'Gradle', 'AES-256 Encryption', 'AsyncStorage']
-
 	},
-    ];
+];
 
-const mobapp = () => {
+const Mobapp = () => {
 	return (
 		<div className="min-h-screen pt-20 px-4 max-w-6xl mx-auto">
 			<ScrollAnimation>
@@ -33,7 +31,7 @@ const mobapp = () => {
 			</ScrollAnimation>
 
 			<div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-				{projects.map((project, index) => (
+				{mobapps.map((project, index) => (
 					<ScrollAnimation key={project.title}>
 						<div className="bg-gray-800/50 rounded-lg overflow-hidden backdrop-blur-sm">
 							<img
@@ -72,4 +70,4 @@ const mobapp = () => {
 	);
 };
 
-export default Projects;
+export default Mobapp;
