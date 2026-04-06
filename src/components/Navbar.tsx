@@ -19,7 +19,8 @@ const Navbar = () => {
 		{ path: '/certificates', label: 'Certificates' },
 		{ path: '/experience', label: 'Experience' },
 		{ path: '/education', label: 'Education' },
-		{ path: '/contact', label: 'Contact' }
+		{ path: '/contact', label: 'Contact' },
+		{ path: '/mobapp', label: 'Mobile App' },
 
 	];
 

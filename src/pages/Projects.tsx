@@ -5,6 +5,15 @@ import { Github, ExternalLink } from 'lucide-react';
 import { ScrollAnimation } from '@/components/ScrollAnimation';
 
 const projects = [	
+	{
+		title: 'Locktask - A Privacy-First Task Manager with Dumb Mind thoughts',
+		description: 'A privacy-first task manager built in React Native with AES-256 on-device encryption. No cloud. No backend. No one can read your tasks but you. Not even the developer. Built with React Native, TypeScript, AES-256 encryption, and local storage. Outcome: A secure, user-friendly task manager that keeps all data on the device, ensuring maximum privacy and peace of mind for users.',
+		image: '/projects_img/image13.png',
+		github: 'https://github.com/abinesh2323/Locktask.git',
+		live: 'https://www.linkedin.com/posts/abinesh-kalyanasundaram-369494322_opentowork-reactnative-mobiledevelopment-activity-7443521906873462784-XGyO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGVxgEB3eQPhkn-ILD9WjuOBbtNzl2G4X0',
+		tags: ['React Native', 'TypeScript', 'Android SDK', 'ADB', 'Metro Bundler', 'Gradle', 'AES-256 Encryption', 'AsyncStorage']
+
+	},
 		{
 		title: 'ABINHire (SaaS Product) - AI Recruiter with realtime Voice Agent   ',
 		description: 'Built ABINHire, an AI-powered SaaS platform that automates candidate screening with real-time voice agents, screen locking for silence detection, and advanced AI evaluation. Tech stack includes JavaScript, TypeScript, Google Cloud, Node.js, Express.js, Supabase, SQL, Vapi AI, DeepSeek, GPT-4, OpenRouter, and Paddle for transactions. Outcome: Successfully screens 1000+ candidates in the same time it takes to manually screen one, dramatically improving recruitment efficiency and scalability.',
