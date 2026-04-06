@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 import { Github, ExternalLink } from 'lucide-react';
 import { ScrollAnimation } from '@/components/ScrollAnimation';
 
-const projects = [	
+const mobapp= [	
     	{
 		title: 'Abinyte - An Open-Source Offline Music Player for Local Libraries',
 		description: 'An open-source offline music player built for people tired of paying for what they already own. No streaming. No subscription. No internet required. Your local music library, beautifully organized and ready to play. Built with a full audio engine using React Native Track Player with queue management, shuffle, and persistent playback state.  ',
@@ -25,7 +25,7 @@ const projects = [
 	},
     ];
 
-const Projects = () => {
+const mobapp = () => {
 	return (
 		<div className="min-h-screen pt-20 px-4 max-w-6xl mx-auto">
 			<ScrollAnimation>

@@ -53,6 +53,12 @@ const searchData = [
 		path: '/contact',
 		keywords: ['contact', 'email', 'message', 'connect', 'hire', 'freelance', 'work', 'collaboration', 'job', 'opportunity']
 	}
+	{
+		title: 'Mobile App',
+		description: 'View my portfolio of projects',
+		path: '/mobapp',
+		keywords: ['projects', 'portfolio', 'work', 'examples', 'github', 'code', 'open-source', 'web applications', 'full stack', 'mern stack', 'react', 'node']
+	},
 ];
 
 const SearchDialog = () => {
