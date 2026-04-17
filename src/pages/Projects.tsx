@@ -5,18 +5,9 @@ import { Github, ExternalLink } from 'lucide-react';
 import { ScrollAnimation } from '@/components/ScrollAnimation';
 
 const projects = [	
-	{
-		title: 'Locktask - A Privacy-First Task Manager with Dumb Mind thoughts',
-		description: 'A privacy-first task manager built in React Native with AES-256 on-device encryption. No cloud. No backend. No one can read your tasks but you. Not even the developer. Built with React Native, TypeScript, AES-256 encryption, and local storage. Outcome: A secure, user-friendly task manager that keeps all data on the device, ensuring maximum privacy and peace of mind for users.',
-		image: '/projects_img/image13.png',
-		github: 'https://github.com/abinesh2323/Locktask.git',
-		live: 'https://www.linkedin.com/posts/abinesh-kalyanasundaram-369494322_opentowork-reactnative-mobiledevelopment-activity-7443521906873462784-XGyO?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGVxgEB3eQPhkn-ILD9WjuOBbtNzl2G4X0',
-		tags: ['React Native', 'TypeScript', 'Android SDK', 'ADB', 'Metro Bundler', 'Gradle', 'AES-256 Encryption', 'AsyncStorage']
-
-	},
 		{
 		title: 'ABINHire (SaaS Product) - AI Recruiter with realtime Voice Agent   ',
-		description: 'Built ABINHire, an AI-powered SaaS platform that automates candidate screening with real-time voice agents, screen locking for silence detection, and advanced AI evaluation. Tech stack includes JavaScript, TypeScript, Google Cloud, Node.js, Express.js, Supabase, SQL, Vapi AI, DeepSeek, GPT-4, OpenRouter, and Paddle for transactions. Outcome: Successfully screens 1000+ candidates in the same time it takes to manually screen one, dramatically improving recruitment efficiency and scalability.',
+		description: 'Built ABINHire, an AI-powered SaaS platform that automates candidate screening with real-time voice agents, screen locking for silence detection, and advanced AI evaluation.',
 		image: '/projects_img/image12.png',
 		github: 'https://github.com/abinesh2323/AI-recruiter',
 		live: 'https://ai-recruiter-iota.vercel.app',
@@ -26,7 +17,7 @@ const projects = [
 
 	{
 		title: 'Planora - A SaaS Style team & task Management system ',
-		description: 'Developed Planora, a full-stack MERN SaaS application with team collaboration, workflow management, and real-time updates. Built with JavaScript, TypeScript, Google Cloud, Node.js, Express.js, MongoDB Atlas, OAuth authentication, and cloud-native architecture. Outcome: Production-ready SaaS product that solves real team collaboration challenges with enterprise-level scalability, security, and performance.',
+		description: 'Developed Planora, a full-stack MERN SaaS application with team collaboration, workflow management, and real-time updates.',
 		image: '/projects_img/image11.png',
 		github: 'https://github.com/abinesh2323/Advanced-MERN-B2B-Teams-Project-Management-Saas-main',
 		live: '/projects/notfound.tsx',
@@ -36,7 +27,7 @@ const projects = [
 
 	{
 		title: 'SHIPDEYE - A Hacking tool to access target System info, Location info, Camera & Mic Access Remotely',
-		description: 'Created SHIPDEYE, a cross-platform Python script for remote system information gathering, location tracking, and camera/microphone access. Compatible with Termux, Kali Linux, Windows, macOS, Linux, and Unix. Built with Python for maximum portability and stealth. Outcome: Powerful ethical hacking tool that demonstrates advanced cybersecurity skills and platform-agnostic development capabilities.',
+		description: 'Created SHIPDEYE, a cross-platform Python script for remote system information gathering, location tracking, and camera/microphone access. ',
 		image: '/projects_img/image10.png',
 		github: 'https://github.com/abinesh2323/spyde',
 		tags: ['Python','Location','Camera','Termux', 'Kali', 'Linux', 'Windows', 'Unix', 'macOS']
@@ -44,7 +35,7 @@ const projects = [
 	},
 		{
 		title: 'AI-Powered Personal Finance Platform ',
-		description: 'Built a production-ready personal finance platform with AI-driven expense categorization using OCR and Gemini AI, real-time dashboards, automated reporting, and email notifications. Tech stack includes JavaScript, TypeScript, Google Cloud, Node.js, Express.js, MongoDB Atlas, Resend for emails, Tailwind CSS, Inngest for workflows, Cloudinary for file handling, and end-to-end encryption.',
+		description: 'Built a production-ready personal finance platform with AI-driven expense categorization using OCR and Gemini AI, real-time dashboards, automated reporting, and email notifications.',
 		image: '/projects_img/image9.png',
 		github: 'https://github.com/abinesh2323/financeapp',
 		live: 'https://financeapp-five-fawn.vercel.app',
