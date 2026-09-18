@@ -1,15 +1,69 @@
-import { MetadataRoute } from 'next'
+import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  return [
-    { url: 'https://abinesh-one.vercel.app', lastModified: new Date() },
-    { url: 'https://abinesh-one.vercel.app/about', lastModified: new Date() },
-    { url: 'https://abinesh-one.vercel.app/projects', lastModified: new Date() },
-    { url: 'https://abinesh-one.vercel.app/skills', lastModified: new Date() },
-    { url: 'https://abinesh-one.vercel.app/contact', lastModified: new Date() },
-    { url: 'https://abinesh-one.vercel.app/experience', lastModified: new Date() },
-    { url: 'https://abinesh-one.vercel.app/certificates', lastModified: new Date() },
-    { url: 'https://abinesh-one.vercel.app/education', lastModified: new Date() },
-    { url: 'https://abinesh-one.vercel.app/mobapp', lastModified: new Date() },
-  ]
+	const baseUrl = 'https://abinesh-one.vercel.app';
+	const now = new Date();
+
+	return [
+		{
+			url: `${baseUrl}`,
+			lastModified: now,
+			changeFrequency: 'weekly',
+			priority: 1.0,
+		},
+		{
+			url: `${baseUrl}/about`,
+			lastModified: now,
+			changeFrequency: 'monthly',
+			priority: 0.9,
+		},
+		{
+			url: `${baseUrl}/projects`,
+			lastModified: now,
+			changeFrequency: 'weekly',
+			priority: 0.9,
+		},
+		{
+			url: `${baseUrl}/skills`,
+			lastModified: now,
+			changeFrequency: 'monthly',
+			priority: 0.9,
+		},
+		{
+			url: `${baseUrl}/experience`,
+			lastModified: now,
+			changeFrequency: 'monthly',
+			priority: 0.8,
+		},
+		{
+			url: `${baseUrl}/certificates`,
+			lastModified: now,
+			changeFrequency: 'monthly',
+			priority: 0.8,
+		},
+		{
+			url: `${baseUrl}/education`,
+			lastModified: now,
+			changeFrequency: 'monthly',
+			priority: 0.7,
+		},
+		{
+			url: `${baseUrl}/mobapps`,
+			lastModified: now,
+			changeFrequency: 'monthly',
+			priority: 0.8,
+		},
+		{
+			url: `${baseUrl}/kali`,
+			lastModified: now,
+			changeFrequency: 'monthly',
+			priority: 0.7,
+		},
+		{
+			url: `${baseUrl}/contact`,
+			lastModified: now,
+			changeFrequency: 'monthly',
+			priority: 0.8,
+		},
+	];
 }
