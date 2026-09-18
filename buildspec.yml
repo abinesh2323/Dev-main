@@ -1,0 +1,27 @@
+version: 0.2
+
+phases:
+  install:
+    runtime-versions:
+      nodejs: 20
+    commands:
+      - echo "===> [Phase 1: Installing Dependencies]"
+      - npm ci
+
+  pre_build:
+    commands:
+      - echo "===> [Phase 2: Code Quality Gates & Validation]"
+      - echo "Checking TypeScript types..."
+      - npx tsc --noEmit
+      - echo "TypeScript checks passed successfully!"
+
+  build:
+    commands:
+      - echo "===> [Phase 3: Production Static Compilation]"
+      - npm run build
+      - echo "Build verification completed successfully!"
+
+artifacts:
+  base-directory: out
+  files:
+    - '**/*'
