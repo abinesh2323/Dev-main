@@ -1,0 +1,23 @@
+#!/bin/bash
+set -e
+echo "Running Automated Smoke Tests on Staging..."
+STAGING_URL="http://abinesh-portfolio-staging-773475891493.s3-website-us-east-1.amazonaws.com"
+API_URL="https://3ymcahh46iid5w4ogq2m4gdvsy0szudw.lambda-url.us-east-1.on.aws/"
+
+echo "Checking Staging URL: $STAGING_URL"
+HTTP_STATUS=$(curl -s -o /dev/null -w "%{http_code}" "$STAGING_URL")
+echo "Staging HTTP Response: $HTTP_STATUS"
+if [ "$HTTP_STATUS" != "200" ]; then
+    echo "[FATAL] Staging site returned $HTTP_STATUS! Halting deployment."
+    exit 1
+fi
+
+echo "Checking Serverless Lead Capture API..."
+API_STATUS=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$API_URL" -H "Content-Type: application/json" -d '{"name":"SmokeTest Bot","email":"smoke@test.ae"}')
+echo "Lead API Response: $API_STATUS"
+if [ "$API_STATUS" != "201" ]; then
+    echo "[FATAL] Lead API failed with $API_STATUS! Halting deployment."
+    exit 1
+fi
+
+echo "ALL STAGING SMOKE TESTS PASSED! Proceeding to Production."
