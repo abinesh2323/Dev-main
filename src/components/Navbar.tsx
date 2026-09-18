@@ -21,7 +21,7 @@ const Navbar = () => {
 		{ path: '/experience', label: 'Experience' },
 		{ path: '/education', label: 'Education' },
 		{ path: '/contact', label: 'Contact' },
-
+		{ path: '/hire', label: 'Hire Me', isHire: true },
 	];
 
 	return (
@@ -45,15 +45,33 @@ const Navbar = () => {
 						{/* Desktop Navigation */}
 						<div className="hidden md:flex items-center space-x-2 text-sm">
 							<SearchDialog />
-							{navLinks.map(link => (
-								<Link
-									key={link.path}
-									href={link.path}
-									className={`nav-link ${pathname === link.path ? 'bg-white/15 backdrop-blur-sm' : ''}`}
-								>
-									{link.label}
-								</Link>
-							))}
+							{navLinks.map(link => {
+								if (link.isHire) {
+									return (
+										<Link
+											key={link.path}
+											href={link.path}
+											className={`flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold border transition-all ${
+												pathname === link.path
+													? 'bg-emerald-500/20 border-emerald-400 text-emerald-300 shadow-md shadow-emerald-500/20'
+													: 'bg-white/5 border-emerald-500/40 text-emerald-400 hover:bg-emerald-500/10 hover:border-emerald-400'
+											}`}
+										>
+											<span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
+											<span>{link.label}</span>
+										</Link>
+									);
+								}
+								return (
+									<Link
+										key={link.path}
+										href={link.path}
+										className={`nav-link ${pathname === link.path ? 'bg-white/15 backdrop-blur-sm' : ''}`}
+									>
+										{link.label}
+									</Link>
+								);
+							})}
 						</div>
 
 						{/* Mobile header right section */}

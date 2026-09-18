@@ -1,0 +1,49 @@
+# Abinesh Kalyanasundaram - Full Stack Developer & AI Engineer
+
+> Full Stack Developer and AI Automation Engineer serving engineering teams, startups, and clients across India, the United Arab Emirates (UAE), and Singapore. Specializing in Next.js, React, Node.js, AWS Cloud, Generative AI applications, and n8n intelligent workflows.
+
+## Profile Summary
+- **Name**: Abinesh Kalyanasundaram
+- **Role**: Full Stack Developer / DevOps & Cloud Engineer / AI Automation Specialist
+- **Website**: https://abinesh-one.vercel.app
+- **Recruiter Hub**: https://abinesh-one.vercel.app/hire
+- **Email**: abineshkalyan2002@gmail.com
+- **WhatsApp**: +919159447439
+- **GitHub**: https://github.com/abinesh2323
+- **LinkedIn**: https://linkedin.com/in/abinesh-kalyanasundaram-369494322
+- **Locations Served**: India (Chennai, Bangalore), UAE (Dubai, Abu Dhabi), Singapore (SG / APAC)
+- **Timezone Availability**: IST (UTC+5:30), GST (UTC+4), SGT (UTC+8)
+
+## Recruiter & HR Cheat Sheet (Fast-Track Sourcing)
+- **Notice Period**: **Immediate Joiner (0 Days Notice)**
+- **Work Eligibility**: Citizen of India. Ready for Remote roles, C2C / Contract (W2), or Relocation (UAE / Singapore visa sponsorship).
+- **Target Job Titles**: Full Stack Developer, Frontend Engineer (React/Next.js), AI Engineer, Workflow Automation Engineer (n8n), Cloud & DevOps Engineer.
+- **Years of Experience & Credentials**: B.Tech in Information Technology from Sri Sairam Engineering College (8.1 CGPA), 10+ Production-ready applications, 3 Internships.
+- **Engagement Types**: Full-time, Contract / Freelance, Consulting.
+- **Timezone Overlap**: Full business hours overlap with India (IST), UAE / GCC (GST, -1.5h), and Singapore / APAC (SGT, +2.5h).
+
+## Core Technical Competencies
+- **Frontend**: Next.js 14/15, React 18/19, TypeScript, Tailwind CSS, Framer Motion, Three.js
+- **Backend & APIs**: Node.js, Express, REST APIs, GraphQL, Serverless Functions, SWR
+- **AI & Automation**: n8n Workflow Automation, OpenAI API, LangChain, Custom AI Agents, RAG Pipelines
+- **Cloud & DevOps**: AWS (EC2, S3, CloudFront, Route53, IAM), Docker, GitHub Actions CI/CD, Vercel
+- **Databases**: MongoDB, PostgreSQL, Redis
+
+## Services Provided
+- **Full-Stack Web Apps**: High-performance, SEO-optimized web applications with modern SSR and state management.
+- **Enterprise AI & Workflow Automation**: Automating operational workflows and lead funnels using n8n and LLMs.
+- **Cloud Deployment & Architecture**: Production-grade AWS cloud setup with automated deployment runbooks and monitoring.
+
+## Key Projects
+- **Live Docs**: Real-time collaborative document editor with live presence and markdown support.
+- **Figma Clone**: Interactive vector design tool with real-time multi-user canvas collaboration.
+- **Video Conferencing App**: Secure WebRTC and Agora-powered video conferencing system.
+- **Abinyte & Locktask**: Mobile productivity and security utilities.
+- **AWS Deployment Automation**: Production cloud architectures with automated deployment pipelines and health checks.
+
+## Cross-Border Availability
+- **India**: On-site in Chennai / Remote across all tech hubs (Bangalore, Hyderabad, Mumbai, Delhi-NCR).
+- **United Arab Emirates (UAE)**: Available for remote contract, freelance, and relocation/consulting roles in Dubai, Abu Dhabi, and Sharjah (GST UTC+4).
+- **Singapore (APAC)**: Available for remote engineering, asynchronous collaboration, and cross-border innovation projects in Singapore (SGT UTC+8).
+
+For detailed documentation, read [llms-full.txt](https://abinesh-one.vercel.app/llms-full.txt).

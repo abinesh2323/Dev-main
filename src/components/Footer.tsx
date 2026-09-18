@@ -18,6 +18,7 @@ const Footer = () => {
 		{ name: 'Contact', path: '/contact' },
 		{ name: 'Kali Linux', path: '/kali' },
 		{ name: 'MobileApp', path: '/mobapps' },
+		{ name: 'Hire Me (Immediate)', path: '/hire' },
 	];
 
 	// Split links into columns of 3

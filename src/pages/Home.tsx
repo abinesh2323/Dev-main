@@ -6,6 +6,7 @@ import { Github, Linkedin, MessageCircle, Copy, Check, FileDown, User } from 'lu
 import Link from 'next/link';
 import { useState } from 'react';
 import useSWR from 'swr';
+import AeoFaq from '@/components/AeoFaq';
 
 const fetcher = (url: string) => fetch(url).then(res => res.json());
 
@@ -42,16 +43,27 @@ const Home = () => {
 	};
 
 	return (
-		<div className="min-h-screen flex items-center justify-center px-4 mt-7 sm:mt-0 md:mt-3 lg:mt-5">
-			<div className="text-center relative z-10 max-w-4xl mx-auto">
-				<motion.h1
-					className="text-4xl sm:text-6xl md:text-7xl font-bold mb-3 sm:mb-6 relative tracking-tighter"
-					initial={{ opacity: 0, y: 20 }}
-					animate={{ opacity: 1, y: 0 }}
-					transition={{ duration: 0.8 }}
-				>
-					Abinesh Kalyanasundaram
-				</motion.h1>
+		<div className="w-full">
+			<div className="min-h-screen flex items-center justify-center px-4 mt-7 sm:mt-0 md:mt-3 lg:mt-5">
+				<div className="text-center relative z-10 max-w-4xl mx-auto">
+					<motion.div
+						className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs sm:text-sm text-gray-300 mb-4 sm:mb-6 backdrop-blur-md"
+						initial={{ opacity: 0, y: 10 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.6 }}
+					>
+						<span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+						<span>Available across India 🇮🇳 • UAE 🇦🇪 • Singapore 🇸🇬</span>
+					</motion.div>
+
+					<motion.h1
+						className="text-4xl sm:text-6xl md:text-7xl font-bold mb-3 sm:mb-6 relative tracking-tighter"
+						initial={{ opacity: 0, y: 20 }}
+						animate={{ opacity: 1, y: 0 }}
+						transition={{ duration: 0.8 }}
+					>
+						Abinesh Kalyanasundaram
+					</motion.h1>
 				<motion.h2
 					className="text-2xl sm:text-4xl md:text-6xl font-bold mb-4 sm:mb-6 relative tracking-tighter"
 					initial={{ opacity: 0, y: 20 }}
@@ -187,7 +199,40 @@ const Home = () => {
 				</motion.div>
 			</div>
 		</div>
+
+		{/* Recruiter & Hiring Manager Fast-Track Banner */}
+		<div className="max-w-4xl mx-auto px-4 mt-10 mb-6">
+			<div className="relative rounded-2xl border border-emerald-500/30 bg-gradient-to-r from-emerald-950/30 via-black/50 to-blue-950/30 p-6 backdrop-blur-xl flex flex-col sm:flex-row items-center justify-between gap-4 shadow-lg shadow-emerald-500/5">
+				<div className="flex items-start sm:items-center gap-4 text-left w-full sm:w-auto">
+					<div className="mt-1.5 sm:mt-0 w-3 h-3 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+					<div>
+						<div className="text-xs uppercase tracking-wider font-semibold text-emerald-400 mb-0.5">
+							Recruiter Quick Dossier
+						</div>
+						<div className="text-white font-semibold text-base sm:text-lg">
+							Immediate Joiner (0 Days Notice) • India, UAE &amp; Singapore
+						</div>
+						<p className="text-xs sm:text-sm text-gray-400 mt-0.5">
+							Full Stack (Next.js/React/Node) • AWS Cloud • n8n Workflow Automation
+						</p>
+					</div>
+				</div>
+				<div className="flex items-center gap-3 shrink-0 w-full sm:w-auto justify-end">
+					<Link
+						href="/hire"
+						className="w-full sm:w-auto text-center px-5 py-2.5 rounded-full bg-emerald-500 hover:bg-emerald-400 text-black font-semibold text-sm transition-all hover:scale-105"
+					>
+						Recruiter Hub &rarr;
+					</Link>
+				</div>
+			</div>
+		</div>
+
+		<AeoFaq />
+	</div>
 	);
 };
 
+
 export default Home;
+
